@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    font-size: 40px;
+}
+
+header .logo{
+    color: palevioletred;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+header .logo:hover{
+    color: blueviolet;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 25px;
+    color: black;
+    transition: .3s;
+}
+
+header nav a:hover{
+    font-size: 28px;
+    color: blueviolet;
+}
+
+h1{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    top: 75px;
+}
